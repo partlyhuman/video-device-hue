@@ -1,3 +1,4 @@
+const v3 = require('node-hue-api').v3;
 const fs = require('fs');
 const Tail = require('tail').Tail;
 const PREFS_PATH = process.env.HOME + "/.video-device-hue.json";
