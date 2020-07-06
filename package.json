@@ -1,0 +1,15 @@
+{
+  "name": "video-device-hue",
+  "version": "1.0.0",
+  "description": "Link a Philips Hue light to the active state of a webcam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roger Braunstein <roger@partlyhuman.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-hue-api": "^4.0.7",
+    "tail": "^2.0.4"
+  }
+}
